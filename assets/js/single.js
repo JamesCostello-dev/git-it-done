@@ -91,10 +91,6 @@ var getRepoIssues = function (repo) {
       document.location.replace("./index.html");
     }
   });
-
-  console.log(repo);
 };
 
-getRepoIssues();
 getRepoName();
-
